@@ -62,3 +62,9 @@ Claude Code skills for working with mlr3 packages.
 
 Skills from [posit-dev](https://github.com/posit-dev/skills).
 See this [help page](https://support.claude.com/en/articles/12512180-using-skills-in-claude) for more information on how to use skills in Claude.
+
+# Reverse Dependencies Check
+
+Scripts to create a conda environment that satisfies the dependencies of all reverse dependencies of an mlr3 package.
+Includes dependencies of suggested packages.
+Located in `revdepcheck`.
